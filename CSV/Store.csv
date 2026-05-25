@@ -1,0 +1,11 @@
+storeId,storeName,city,storeCategory,operationalStatus
+1,Chennai Central,Chennai,Hypermarket,ACTIVE
+2,T Nagar Retail,Chennai,Supermarket,ACTIVE
+3,Coimbatore Mart,Coimbatore,Supermarket,ACTIVE
+4,Madurai Hub,Madurai,Mini Store,INACTIVE
+5,Trichy Point,Trichy,Hypermarket,ACTIVE
+6,Salem Shop,Salem,Mini Store,ACTIVE
+7,Vellore Retail,Vellore,Supermarket,ACTIVE
+8,Erode Bazaar,Erode,Mini Store,ACTIVE
+9,Tambaram Mart,Chennai,Supermarket,ACTIVE
+10,Anna Nagar Store,Chennai,Hypermarket,ACTIVE
