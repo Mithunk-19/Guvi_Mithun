@@ -1,0 +1,151 @@
+{
+  "name" : "hackathon-1779767779859",
+  "sourceOrgId" : "20tSn51nnZShxVCrQqWhcb",
+  "sourceOrgName" : "K Ramakrishnan college of Engineering",
+  "exportedObjects" : [ {
+    "objectGuid" : "2Ev90DgpQcEjsSEtSjrxiW",
+    "objectName" : "m_Load_Product",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/hackathon",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0139SC1700000000000E"
+      },
+      "objectRefs" : [ "3LuWV63nr0WkTNYonzmvYj" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "5GxIIskxFakd4TeyttF86g",
+    "objectName" : "LAPTOP-RMDH6L05",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0139SC2500000000001G"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "apPBtNbKfOycpnQ5aNbXEt",
+    "objectName" : "hackathon",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "aac77MgE3jbbudwFS2U4Ci",
+    "objectName" : "m_Load_Store",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/hackathon",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0139SC1700000000000D"
+      },
+      "objectRefs" : [ "3LuWV63nr0WkTNYonzmvYj" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "9K9Xsi4ZEMLddHpcTOzYOZ",
+    "objectName" : "m_load_sales",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/hackathon",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0139SC1700000000000G"
+      },
+      "objectRefs" : [ "3LuWV63nr0WkTNYonzmvYj" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "3LuWV63nr0WkTNYonzmvYj",
+    "objectName" : "RH",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "providerName" : null,
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0139SC0B000000000006"
+      },
+      "objectRefs" : [ "5GxIIskxFakd4TeyttF86g" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  } ]
+}
