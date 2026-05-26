@@ -1,0 +1,21 @@
+storeId,storeName,city,storeCategory,operationalStatus
+1,Store_1,Smithhaven,Express,ACTIVE
+2,Store_2,Hallburgh,Express,ACTIVE
+3,Store_3,Scottville,Supermarket,ACTIVE
+4,Store_4,Reyeschester,Supermarket,ACTIVE
+5,Store_5,Randalltown,Express,ACTIVE
+6,Store_6,Robinsonton,Hypermarket,ACTIVE
+7,Store_7,Coreychester,Supermarket,ACTIVE
+8,Store_8,Dixonport,Express,ACTIVE
+9,Store_9,Lake Anthony,Express,ACTIVE
+10,Store_10,New Sean,Express,ACTIVE
+11,Store_11,Robertbury,Hypermarket,ACTIVE
+12,Store_12,New Johnhaven,Express,ACTIVE
+13,Store_13,North Edward,Supermarket,ACTIVE
+14,Store_14,Aaronhaven,Supermarket,ACTIVE
+15,Store_15,Hollandfort,Hypermarket,ACTIVE
+16,Store_16,East Scott,Supermarket,INACTIVE
+17,Store_17,East Jill,Hypermarket,ACTIVE
+18,Store_18,South Robert,Hypermarket,ACTIVE
+19,Store_19,Williamsport,Hypermarket,ACTIVE
+20,Store_20,Port Brendachester,Supermarket,ACTIVE

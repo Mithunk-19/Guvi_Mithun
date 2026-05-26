@@ -1,0 +1,27 @@
+alertId,productId,alertReason,alertSeverity,alertStatus
+1,16,Low Stock,MEDIUM,OPEN
+2,33,Low Stock,HIGH,OPEN
+3,35,Low Stock,MEDIUM,OPEN
+4,39,Low Stock,HIGH,OPEN
+5,55,Low Stock,MEDIUM,OPEN
+6,57,Low Stock,HIGH,OPEN
+7,76,Low Stock,HIGH,OPEN
+8,77,Low Stock,HIGH,OPEN
+9,82,Low Stock,MEDIUM,OPEN
+10,84,Low Stock,HIGH,OPEN
+11,87,Low Stock,LOW,OPEN
+12,99,Low Stock,MEDIUM,OPEN
+13,104,Low Stock,HIGH,OPEN
+14,110,Low Stock,HIGH,OPEN
+15,111,Low Stock,HIGH,OPEN
+16,114,Low Stock,HIGH,OPEN
+17,117,Low Stock,LOW,OPEN
+18,124,Low Stock,LOW,OPEN
+19,126,Low Stock,LOW,OPEN
+20,129,Low Stock,HIGH,OPEN
+21,135,Low Stock,HIGH,OPEN
+22,137,Low Stock,MEDIUM,OPEN
+23,143,Low Stock,LOW,OPEN
+24,151,Low Stock,HIGH,OPEN
+25,165,Low Stock,HIGH,OPEN
+26,173,Low Stock,LOW,OPEN
