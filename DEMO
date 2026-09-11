@@ -1,0 +1,111 @@
+Description
+                    
+                    
+Objective:To work with a Spring Core application using annotations, auto wiring, and bean configuration concepts.Concept Explanation: Inner beans are beans defined within the scope of another bean definition, typically used when a bean is used only within the context of its enclosing bean and doesn't need to be exposed to the rest of the application.  They help in managing the lifecycle and visibility of beans within the application context efficiently. Concept Implementation:The inner bean concept is implemented by defining the Loan bean within the scope of the Account bean's definition.  This encapsulates the Loan bean within the Account bean, ensuring it is used only within the context of the Account bean and doesn't need to be exposed to the rest of the application. The Loan bean is injected into the Account bean via constructor-based injection, ensuring that each Account object has its instance of the Loan object. Account-Loan InnerBeanAccount class with the below private attributes is provided as a part of code skeleton
+
+
+ 
+  
+  accNumber
+  
+  
+  String
+  
+ 
+ 
+  
+  accHolderName
+  
+  
+  String
+  
+ 
+ 
+  
+  accBalance
+  
+  
+  double
+  
+ 
+ 
+  
+  loanInfo
+  
+  
+  Loan
+  
+ 
+
+
+ 
+
+Getter and setter methods for all the above attributes are provided as a part of the code skeleton.
+
+Loan class with the below private attributes is provided as a part of code skeleton
+
+
+ 
+  
+  loanType
+  
+  
+  String
+  
+ 
+ 
+  
+  loanAmount
+  
+  
+  double
+  
+ 
+ 
+
+Getter and setter methods for all the above attributes are provided as a part of the code skeleton.
+
+Create a class called ApplicationConfig that has the required annotations for scanning and registering the bean definitions.Account and Loan should be registered as a bean using annotationLoan is used for only
+particular property, so Loan should be declared as an inner bean of Account.Loan should be injected into Account
+via Constructor based Injection.Input for Account and Loan attributes should be set using the methods account() and loan() in the ApplicationConfig class.
+
+
+
+
+
+Create a class called Driver with the below methods
+
+               * loadAccount --> This method should fetch the Account object by loading ApplicationConfig class and return the same       
+
+ 
+             * main method --> 
+Inside the main method invoke the loadAccountmethod, obtain the Account object and display the Account and Loan details as shown in the sample output
+
+Design Constraints:
+
+Account class should be present in com.spring.app packageLoan class should be present in com.spring.app packageDriver class should be present in com.spring.app packageThe className/Attribute Name/PackageName should be same as
+specified in the problem statement. Do not create any new packages.Do not create any XML configuration file. You need to use only annotations for configuration.
+
+
+
+
+
+
+
+
+
+ Sample Output
+
+Account
+number:335647852
+
+Account
+holder name:Vanitha
+
+Balance:250000.0
+
+Loan
+type:HomeLoan
+
+Loan
+amount:150000.0
